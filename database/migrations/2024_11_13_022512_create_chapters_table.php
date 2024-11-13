@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('chapter_title');
             $table->string('chapter_desc');
-            $table->string('course_title')->constrained();
+            $table->foreignId('course_id')->constrained();
             $table->boolean('status')->default(false);
             $table->timestamps();
         });

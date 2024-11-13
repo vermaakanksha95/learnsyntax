@@ -13,5 +13,11 @@ Route::prefix("admin")->group(function(){
     Route::get("/course",function(){
         return view("admin.course");
     })->name("admin.course");
+    Route::get("/chapter",function(){
+        return view("admin.chapter");
+    })->name("admin.chapter");
+    Route::get("/lesson",function(){
+        return view("admin.lesson");
+    })->name("admin.lesson");
 
 });
