@@ -37,17 +37,14 @@
     </div>
 
 </div>
-<div class="">
-    <div class="w-full  p-[6%] flex gap-5 ">
-
+<div class=" p-10  ">
+    <div class="w-full  p-10  flex gap-5 ">
         <div class="flex flex-1">
             <livewire:public.post-section />
 
         </div>
-        
-      
     </div>
-    <livewire:public.top-courses/>
+    <livewire:public.top-courses />
 </div>
 
 @endsection
