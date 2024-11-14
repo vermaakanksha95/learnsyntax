@@ -18,7 +18,7 @@
             <div class=" flex-1">{{$chapter->id}}</div>
             <div class=" flex-1">{{$chapter->chapter_title}}</div>
             <div class=" flex-1">{{$chapter->chapter_desc}}</div>
-            <div class=" flex-1">{{$chapter->course_id}}</div>
+            <div class=" flex-1">{{$chapter->course_title}}</div>
 
             <div class=" ">
 
