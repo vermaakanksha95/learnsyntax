@@ -7,7 +7,7 @@
             <p class="text-xl ">Learn to program with our beginner-friendly tutorials and examples. Read tutorials, try examples, write code and learn to program.</p>
         </div>
         <div class="flex flex-col gap-3 flex-1">
-            <img src="WhatsApp Image 2024-11-14 at 19.16.24_5b2bfeb4.jpg" alt="">
+            <img src="output-removebg-preview.png" alt="">
         </div>
     </div>
 </div>
