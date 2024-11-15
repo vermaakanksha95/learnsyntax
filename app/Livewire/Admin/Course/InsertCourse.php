@@ -2,11 +2,14 @@
 
 namespace App\Livewire\Admin\Course;
 
+use Livewire\WithFileUploads;
+
 use App\Models\Course;
 use Livewire\Component;
 
 class InsertCourse extends Component
 {
+    use WithFileUploads;
     public $course_title;
     public $description;
     public $image;
@@ -28,6 +31,7 @@ class InsertCourse extends Component
         $this->course_title = '';
         $this->description = '';
         $this->author = '';
+        $this->image ='';
 
         $this->dispatch('course created');
 
