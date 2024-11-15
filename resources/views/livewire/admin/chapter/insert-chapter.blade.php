@@ -17,7 +17,7 @@
             <div class="mb-4">
                 <label for="course_id" class="block text-lg font-semibold text-gray-700 text-white">Course Title</label>
                 <select wire:model="course_id" id="course_id" class="w-full text-black border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 px-4 py-2 mt-1">
-                    <option value="">Select a topic</option>
+                    <option value="">Select a course</option>
                 
                     @foreach($courses as $course)
                     <option value="{{$course->id}}">{{$course->course_title}}</option>
