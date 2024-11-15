@@ -12,6 +12,7 @@
 </head>
 <body style="background-color:#EEEEEE ;">
     @include('header')
+    @include("banner")
     @section('content')
     @show
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
